@@ -1,0 +1,127 @@
+/*Police d'écriture*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #054e05;
+}
+.link {
+    margin: 20px;
+    width: fit-content;
+    position: relative;
+    text-decoration: 0;
+    background-color: #020b13;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+span {
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/*Panier CSS*/
+
+.panier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.panier img {
+    width: 40px;
+    padding: 8px 0;
+}
+.panier section {
+    width: 70%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+th {
+    padding: 10px 0;
+    font-weight: 400;
+}
+td {
+    border-top: 0.5px solid #999;
+    text-align: center;
+    color: #37a6ff;
+}
+tr {
+    border-bottom: 0.5px solid #999;
+}
+
+.total th {
+    border: 0;
+    float: left;
+    font-weight: 500;
+    color: #37a6ff;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.option-btn{
+    display: inline-block;
+    padding:10px 30px;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    
+}
+
+
+.option-btn:hover{
+   background-color: black;
+}
+
+
+
+
+
+.option-btn{
+   background-color: orange
+   ;
+}
